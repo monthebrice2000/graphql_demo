@@ -1,0 +1,41 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:nodemon": "nodemon index.js",
+    "start:server:nodemon": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/config": "^1.1.6",
+    "@nestjs/graphql": "^9.1.2",
+    "@nestjs/jwt": "^8.0.0",
+    "@nestjs/mongoose": "^9.0.2",
+    "@nestjs/passport": "^8.1.0",
+    "@nestjs/typeorm": "^8.0.3",
+    "apollo-server": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "bcrypt": "^5.0.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^14.3.2",
+    "graphql": "15",
+    "heroku": "^7.59.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.41"
+  }
+}
